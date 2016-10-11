@@ -17,21 +17,19 @@
       	{% include 'twitter.html' %}
       </div>
     </div><!-- /.entry-content -->
-    {% if DISQUS_SITENAME %}
-    <div class="comments">
-      <h2>Commentaires</h2>
-      <div id="disqus_thread"></div>
-      <script type="text/javascript">
-        var disqus_identifier = "{{ article.url }}";
-        (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://{{ DISQUS_SITENAME }}.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-      </script>
-    </div>
-    {% endif %}
-
+    <script>
+      var idcomments_acct = 'a9caf2a73f0584fce57ce54adee072f2';
+      var idcomments_post_id;
+      var idcomments_post_url;
+    </script>
+    <span id="IDCommentsPostTitle" style="display:none"></span>
+    <script type='text/javascript' src='https://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
+    <script>
+    var idcomments_acct = 'a9caf2a73f0584fce57ce54adee072f2';
+    var idcomments_post_id;
+    var idcomments_post_url;
+    </script>
+    <script type="text/javascript" src="https://www.intensedebate.com/js/genericLinkWrapperV2.js"></script>
   </article>
 </section>
 {% endblock %}
