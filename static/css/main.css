@@ -22,7 +22,7 @@
 /***** Global *****/
 /* Body */
 body {
-  	background-image:url('../img/grasshopper.png'), url('../img/gradient.png'), url('../img/groovepaper.png');
+  	background-image:url('../img/grasshopper-wide.png'), url('../img/gradient.png'), url('../img/groovepaper.png');
   	background-repeat: no-repeat, repeat-x, repeat;
     background-attachment:fixed, fixed, scroll;
     background-position: center top, left top, left top;
